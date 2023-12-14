@@ -1,6 +1,6 @@
 import random #Importamos "random" para poder mezclar la lista "caracteres" entre si de forma aleatoria.
 
-print("Generado de contraseñas, made by Koan")
+print("Generador de contraseñas, made by Koan")
 
 try: #Prueba a hacer el input de abajo
     longitud =int(input("Que logintud quieres que tenga su contraseña?: ")) #Pedimos que nos introduzcan un numero que lo usaremos para la longitud de la contraseña
