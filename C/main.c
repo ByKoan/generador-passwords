@@ -7,6 +7,8 @@
 /*
     Programa que mediante instruccion RDTSC genera nums pseudoaletorios 
     mediante los ticks que lleva el CPU internamente
+
+    Este programa necesita ser compilado con cualquier compilador que no sea el visual studio compiler
 */
 
 static inline uint64_t rdtsc() { // Instruccion RDTSC (Cuenta los ticks del CPU en ASM)
